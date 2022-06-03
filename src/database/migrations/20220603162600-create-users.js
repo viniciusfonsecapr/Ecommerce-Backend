@@ -9,7 +9,7 @@ module.exports = {
         allowNull: false,
         primaryKey: true
       },
-      name: {
+      nome: {
         type: Sequelize.STRING,
         allowNull: false
       },
@@ -26,15 +26,6 @@ module.exports = {
         allowNull: false,
         unique: true
 
-      },
-      password_hash: {
-        type: Sequelize.STRING,
-        allowNull: false
-      },
-      admin: {
-        type: Sequelize.BOOLEAN,
-        defaultValue: false,
-        allowNull: false
       },
       created_at: {
         type: Sequelize.DATE,
