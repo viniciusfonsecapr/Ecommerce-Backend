@@ -1,7 +1,7 @@
 # Backend E-commerce - Desafio para a Vaga de Back end na SCOD Brasil. 
 
 <p align="center">
-   <img src="https://giphy.com/embed/iIqmM5tTjmpOB9mpbn" alt="Podcastr" width="150"/>
+   <iframe src="https://giphy.com/embed/iIqmM5tTjmpOB9mpbn" width="480" height="268" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/code-web-tasarm-yazlm-iIqmM5tTjmpOB9mpbn"></a></p>
 </p>
 
 <h1 align="center">Back End - Desafio SCOD Brasil </h1>
@@ -16,7 +16,7 @@
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/Rafael-Yokoyama" target="_blank">Author</a>
+  <a href="https://github.com/viniciusfonsecapr" target="_blank">Author</a>
 </p>
 
 <br>
