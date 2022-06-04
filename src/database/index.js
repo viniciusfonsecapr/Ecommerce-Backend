@@ -1,8 +1,7 @@
 import Sequelize from 'sequelize'
-// import mongoose from 'mongoose'
 
 import User from '../app/models/User'
-import configDatabase from '../config/database'
+import configData from '../config/database'
 
 const models = [User]
 class Database {
@@ -11,9 +10,8 @@ class Database {
   }
 
   init () {
-    this.connection = new Sequelize(configDatabase)
-    models.map((model) => model.init(this.connection))
+    this.connection = new Sequelize(configData)
+    models.map(model => model.init(this.connection))
   }
 }
-
 export default new Database()
