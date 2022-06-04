@@ -1,13 +1,6 @@
 # Backend E-commerce - Desafio para a Vaga de Back end na SCOD Brasil. 
 
-<p align="center">
-   <iframe src="https://giphy.com/embed/iIqmM5tTjmpOB9mpbn" width="480" height="268" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/code-web-tasarm-yazlm-iIqmM5tTjmpOB9mpbn"></a></p>
-</p>
-
 <h1 align="center">Back End - Desafio SCOD Brasil </h1>
-
-
-
 
 <p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
