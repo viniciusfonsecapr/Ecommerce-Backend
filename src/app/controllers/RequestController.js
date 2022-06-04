@@ -1,4 +1,5 @@
 import * as Yup from 'yup'
+import Request from '../models/Request'
 
 class RequestController {
   async store (request, response) {
@@ -15,7 +16,17 @@ class RequestController {
     } catch (err) {
       return response.status(400).json({ error: err.errors })
     }
-    return response.json({ ok: true })
+
+    const { usuario_id, name, preco, descricao, quantidade } = request.body
+
+    const requests = await Request.create({
+      usuario_id,
+      name,
+      preco,
+      descricao,
+      quantidade
+    })
+    return response.json(requests)
   }
 }
 
